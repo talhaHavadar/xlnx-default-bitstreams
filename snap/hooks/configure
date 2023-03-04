@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -d "$SNAP/firmware.d" ]
+then
+  # echo "$SNAP/firmware" > $SNAP/firmware.d/k26-starter-kits.path
+  cp -R $SNAP/firmware/k26-starter-kits $SNAP/firmware.d/
+fi

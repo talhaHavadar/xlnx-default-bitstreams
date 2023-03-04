@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#rm $SNAP/firmware.d/k26-starter-kits.path
+rm -rf $SNAP/firmware.d/k26-starter-kits
